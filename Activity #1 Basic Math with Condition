@@ -1,0 +1,27 @@
+class Main {
+    public static void main(String[] args) {
+       int ope1 = 10 + 10;
+       int ope2 = 20 - 5;
+       int ope3 = 15 * 10;
+       int ope4 = 150 / 10;
+      
+       System.out.println ("The answer is" + " " + ope1);
+       System.out.println ("The answer is" + " " + ope2);
+       System.out.println ("The answer is" + " " + ope3);
+       System.out.println ("The answer is" + " " + ope4);
+       
+       if (ope1 > 10)
+       System.out.println("Operation 1 answer is greater than 10");
+       else if (ope1 < 10)
+       System.out.println("Operation 1  is less than 10");
+       else
+       System.out.println("Operation 1  is equal to 10");
+       
+       if (ope1 > ope2)
+       System.out.println( ope1 +  " is greater than " + ope2 );
+       else
+       System.out.println( ope1 +  " is less than " + ope2 );
+       
+       
+    }
+}
